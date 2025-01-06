@@ -4,7 +4,7 @@
 // grups each product with its corresponding category
 // returns the categories array 
 
-const groupProductsWithCategory = (products) => {
+export const groupProductsWithCategory = (products) => {
     let categories = [];
 
     products.forEach(product => {
