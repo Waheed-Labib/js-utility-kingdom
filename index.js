@@ -7,3 +7,5 @@ function utilityKingdom() {
         getTextWordsInArray
     }
 }
+
+module.exports = utilityKingdom 
