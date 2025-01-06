@@ -1,10 +1,12 @@
 {
   "name": "js-utility-kingdom",
   "version": "1.0.0",
+  "type": "module",
   "description": "A collection of various JavaScript functions",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:dev": "rollup -c --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production"
   },
   "repository": {
     "type": "git",
@@ -12,10 +14,11 @@
   },
   "keywords": [
     "JavaScript",
-    "Utility"
+    "Utility",
+    "Function"
   ],
   "author": "Waheed Labib",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Waheed-Labib/js-utility-kingdom/issues"
   },
