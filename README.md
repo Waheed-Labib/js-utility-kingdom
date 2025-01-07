@@ -23,7 +23,7 @@
 
 <h2>Products-related</h2>
 
-<h3>groupProductsWithCategory</h3>
+<h3>groupProductsWithCategory()</h3>
 
 <ul>
 <li><em>Parameter :</em>Takes an array of products as parameter</li> 
