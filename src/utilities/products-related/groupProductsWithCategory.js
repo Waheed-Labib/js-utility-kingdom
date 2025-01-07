@@ -2,6 +2,7 @@
 // presumes each product has a category, for example 'men's clothing'
 // makes an array of categories
 // grups each product with its corresponding category
+// provides each category a unique id
 // returns the categories array 
 
 const groupProductsWithCategory = (products) => {
@@ -12,12 +13,12 @@ const groupProductsWithCategory = (products) => {
         let thisProductCategory = categories.find(category => category[product.category])
 
         if (!thisProductCategory) {
-            categories.push({ [product.category]: [] })
+            categories.push({ [product.category]: { id: categories.length + 1, products: [] } })
 
             thisProductCategory = categories.find(category => category[product.category])
         }
 
-        thisProductCategory[product.category].push(product)
+        thisProductCategory[product.category].products.push(product)
     })
 
     return categories

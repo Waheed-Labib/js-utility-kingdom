@@ -4,7 +4,7 @@
 
 <h1>Installation</h1>
 
-`npm i js-utility-kingdom`
+```npm i js-utility-kingdom```
 
 <h1>Utilities</h1>
 
@@ -18,7 +18,8 @@
 </ul>
 
 ```import { getTextWordsInArray } from 'js-utility-kingdom'```
-```const textWordsInArray = getTextWordsInArray(text);```
+
+```const textWordsInArray = getTextWordsInArray(text)```
 
 <h2>Products-related</h2>
 
@@ -29,8 +30,10 @@
 <li>presumes each product has a category, for example 'men's clothing'</li> 
 <li>makes an array of categories</li> 
 <li>grups each product with its corresponding category</li> 
+<li>provides each category a unique id</li>
 <li><em>Return :</em>returns the categories array</li> 
 </ul>
 
 ```import { groupProductsWithCategory } from 'js-utility-kingdom'```
+
 ```const categories = groupProductsWithCategory(products);```
