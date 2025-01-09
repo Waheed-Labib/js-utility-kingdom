@@ -1,3 +1,5 @@
+import capitalizeFirstLetter from "./capitalizeFirstLetter";
+
 const capitalizeFirstLetters = (text) => {
     const words = text.split(' ');
 
