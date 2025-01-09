@@ -9,3 +9,5 @@ const capitalizeFirstLetters = (text) => {
 
     return newText;
 }
+
+export default capitalizeFirstLetters

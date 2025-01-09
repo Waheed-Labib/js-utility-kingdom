@@ -1,6 +1,6 @@
 {
   "name": "js-utility-kingdom",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "A collection of various JavaScript functions",
   "main": "dist/index.js",
