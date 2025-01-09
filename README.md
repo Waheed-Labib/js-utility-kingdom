@@ -10,16 +10,50 @@
 
 <h2>Text-related</h2>
 
-<h3>getTextWordsInArray()</h3>
+<h3>getLettersInArray()</h3>
+
+<ul>
+<li><em>Parameter :</em>Takes a word as parameter</li>
+<li><em>Return :</em>Returns all the letters of the word separated as array elements</li>
+</ul>
+
+```import { getLettersInArray } from 'js-utility-kingdom'```
+
+```const lettersInArray = getLettersInArray(word)```
+
+<h3>getWordsInArray()</h3>
 
 <ul>
 <li><em>Parameter :</em>Takes a text as parameter</li>
 <li><em>Return :</em>Returns all the words of the text separated as array elements</li>
 </ul>
 
-```import { getTextWordsInArray } from 'js-utility-kingdom'```
+```import { getWordsInArray } from 'js-utility-kingdom'```
 
-```const textWordsInArray = getTextWordsInArray(text)```
+```const wordsInArray = getWordsInArray(text)```
+
+<h3>capitalizeFirstLetter()</h3>
+
+<ul>
+<li><em>Parameter :</em>Takes a word as parameter</li>
+<li><em>Return :</em>Returns the word with the first letter capitalized</li>
+</ul>
+
+```import { capitalizeFirstLetter } from 'js-utility-kingdom'```
+
+```const capitalizedWord = capitalizeFirstLetter(word)```
+
+<h3>capitalizeFirstLetters()</h3>
+
+<ul>
+<li><em>Parameter :</em>Takes a text as parameter</li>
+<li><em>Return :</em>Returns the text with all the first letters capitalized</li>
+</ul>
+
+```import { capitalizeFirstLetters } from 'js-utility-kingdom'```
+
+```const capitalizedText = capitalizeFirstLetters(text)```
+
 
 <h2>Products-related</h2>
 

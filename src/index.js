@@ -1,7 +1,11 @@
 import groupProductsWithCategory from "./utilities/products-related/groupProductsWithCategory"
-import getTextWordsInArray from "./utilities/text-related/getTextWordsInArray"
+import getLettersInArray from './utilities/text-related/getLettersInArray'
+import getWordsInArray from './utilities/text-related/getWordsInArray'
+import capitalizeFirstLetter from "./utilities/text-related/capitalizeFirstLetter"
 
 export {
     groupProductsWithCategory,
-    getTextWordsInArray
+    getLettersInArray,
+    getWordsInArray,
+    capitalizeFirstLetter,
 }
