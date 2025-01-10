@@ -1,6 +1,6 @@
 {
   "name": "js-utility-kingdom",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "description": "A collection of various JavaScript functions",
   "main": "dist/index.js",
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/Waheed-Labib/js-utility-kingdom/issues"
   },
-  "homepage": "https://github.com/Waheed-Labib/js-utility-kingdom#readme"
+  "homepage": "https://github.com/Waheed-Labib/js-utility-kingdom#readme",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.30.1"
+  }
 }
