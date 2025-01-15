@@ -54,6 +54,17 @@
 
 ```const capitalizedText = capitalizeFirstLetters(text)```
 
+<h3>isOneWord()</h3>
+
+<ul>
+<li><em>Parameter :</em>Takes a text as parameter</li>
+<li><em>Return :</em>Returns true if the text contains only one word. Otherwise, returns false.</li>
+</ul>
+
+```import { capitalizeFirstLetters } from 'js-utility-kingdom'```
+
+```const capitalizedText = capitalizeFirstLetters(text)```
+
 
 <h2>Products-related</h2>
 
